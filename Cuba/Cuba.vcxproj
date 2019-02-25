@@ -153,7 +153,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Animation\Composite\CallbackInterpolatingAnimator.h" />
+    <ClInclude Include="Animation\Composite\ForeverAnimator.h" />
+    <ClInclude Include="Animation\Composite\RepeatingAnimator.h" />
+    <ClInclude Include="Animation\Composite\SequentialAnimator.h" />
+    <ClInclude Include="Animation\Composite\SimultaneousAnimator.h" />
+    <ClInclude Include="Animation\DSL\DSL.h" />
+    <ClInclude Include="Animation\DSL\InterpolatingAnimationBuilder.h" />
+    <ClInclude Include="Animation\DSL\SequentialAnimationBuilder.h" />
+    <ClInclude Include="Animation\DSL\SimultaneousAnimationBuilder.h" />
+    <ClInclude Include="Animation\Primitive\Animator.h" />
+    <ClInclude Include="Animation\Primitive\FiniteAnimator.h" />
+    <ClInclude Include="Animation\Primitive\InterpolatingAnimator.h" />
     <ClInclude Include="bevgrafmath.h" />
+    <ClInclude Include="Parameter\AlternatingParameterSource.h" />
+    <ClInclude Include="Parameter\CubicBezierParameterSource.h" />
+    <ClInclude Include="Parameter\IdentityParameterSource.h" />
+    <ClInclude Include="Parameter\ParameterSource.h" />
     <ClInclude Include="stdafx.h" />
   </ItemGroup>
   <ItemGroup>

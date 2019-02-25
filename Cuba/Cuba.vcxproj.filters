@@ -13,13 +13,76 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Animation">
+      <UniqueIdentifier>{fcef25de-8479-4e97-af85-e8ff8a1a28a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Animation\Primitive">
+      <UniqueIdentifier>{ef4a1cf9-ea01-490e-8d02-f52d47dfa354}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Animation\DSL">
+      <UniqueIdentifier>{e7062594-564e-4f5c-bb2d-0702ad58ef0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Animation\Composite">
+      <UniqueIdentifier>{8fd0ec47-0f03-40fb-a788-eac425252a8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Parameter">
+      <UniqueIdentifier>{9c8ae698-ab6a-4b46-9e86-55ce17eebf3f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Animation\Primitive\Animator.h">
+      <Filter>Header Files\Animation\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\Primitive\FiniteAnimator.h">
+      <Filter>Header Files\Animation\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\Primitive\InterpolatingAnimator.h">
+      <Filter>Header Files\Animation\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\DSL\DSL.h">
+      <Filter>Header Files\Animation\DSL</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\DSL\InterpolatingAnimationBuilder.h">
+      <Filter>Header Files\Animation\DSL</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\DSL\SequentialAnimationBuilder.h">
+      <Filter>Header Files\Animation\DSL</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\Composite\CallbackInterpolatingAnimator.h">
+      <Filter>Header Files\Animation\Composite</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\Composite\RepeatingAnimator.h">
+      <Filter>Header Files\Animation\Composite</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\Composite\SequentialAnimator.h">
+      <Filter>Header Files\Animation\Composite</Filter>
+    </ClInclude>
+    <ClInclude Include="Parameter\IdentityParameterSource.h">
+      <Filter>Header Files\Parameter</Filter>
+    </ClInclude>
+    <ClInclude Include="Parameter\ParameterSource.h">
+      <Filter>Header Files\Parameter</Filter>
+    </ClInclude>
+    <ClInclude Include="Parameter\CubicBezierParameterSource.h">
+      <Filter>Header Files\Parameter</Filter>
+    </ClInclude>
     <ClInclude Include="bevgrafmath.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Parameter\AlternatingParameterSource.h">
+      <Filter>Header Files\Parameter</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\Composite\ForeverAnimator.h">
+      <Filter>Header Files\Animation\Composite</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\Composite\SimultaneousAnimator.h">
+      <Filter>Header Files\Animation\Composite</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\DSL\SimultaneousAnimationBuilder.h">
+      <Filter>Header Files\Animation\DSL</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
